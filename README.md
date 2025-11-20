@@ -5,10 +5,9 @@ Lab3 CXR multi-class classification
 [Chest X-ray](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) on Kaggle
 | Dataset | Normal | Bacterial | Virus | COVID-19 |
 |:--|:--:|:--:|:--:|:--:|
-| Train | **1341** | **3875** | **1341** | **3875** |
-| Val | **8** | **8** | **1341** | **3875** |
-| Test | **234** | **390** | **1341** | **3875** |
-| **Total** | **1583** | **4273** | **1341** | **3875** |
+| Train | **1072** | **1888** | **1018** | **39** |
+| Val | **189** | **333** | **180** | **7** |
+| Test | **234** | **390** | **1341** | **12** |
 ---
 
 ## 📁 Project Structure
