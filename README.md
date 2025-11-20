@@ -13,15 +13,9 @@ Lab3 CXR multi-class classification
 ```
 LAB1/
 │
-├── preprocessing.py     # Image preprocessing (CLAHE, resize to 512×512)
+├── preprocessing.py     # Image preprocessing
 ├── train.py             # Training pipeline for classification models
-├── inference.py         # Model inference on test dataset
-├── voting.py            # Voting ensemble of multiple trained models
-│
-├── csvs/                # Training and validation logs (acc, F1 per epoch)
-├── cm_plot/             # Confusion matrix heatmaps
-├── plots/               # Accuracy and F1-score curves
-└── pkls/                # Trained model weights (.pkl) -->　In Google Cloud
+└── voting.py            # Voting ensemble of multiple trained models
 ```
 ---
 ## Models in timm
@@ -43,8 +37,3 @@ model_ft.reset_classifier(num_classes=n_class)
 ```
 ---
 
-✅ Final performance on test set：  
-- **voting by ResNet34, ResNet50, ResNet18 , VGG16**
-- **Accuracy:** 93.27%  
-- **F1-score:** 0.926  
-<img src="cm_plots/cm_voted.png" width="450">
