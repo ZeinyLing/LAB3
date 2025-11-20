@@ -32,7 +32,7 @@ LAB1/
 | VGGNet | `vgg16`, `vgg19` |
 | Vision Transformer | `vit_base_patch16_224`, `vit_small_patch16_224`, `vit_large_patch16_224` |
 ---
-## Code tran.py
+## Code train.py
 
 ```
 # select model
