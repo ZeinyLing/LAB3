@@ -42,7 +42,6 @@ model_ft.reset_classifier(num_classes=n_class)
 ---
 ## Results on Kaggle
 <img src="workflow/result.png" width="700">
----
 
 ## References
 
