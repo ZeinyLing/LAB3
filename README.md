@@ -28,9 +28,9 @@ LAB1/
 ## Code tran.py
 | Model | Architecture in timm | 
 |:--|:--:|
-| ResNet | `resnet18, resnet34, resnet50, resnet101, resnet152` |
-| VGGNet | `vgg16, vgg19` |
-| Vision Transformer | vit_base_patch16_224, vit_small_patch16_224, vit_large_patch16_224` |
+| ResNet | `resnet18`,`resnet34`, `resnet50`,`resnet101`,`resnet152` |
+| VGGNet | `vgg16`, `vgg19` |
+| Vision Transformer | `vit_base_patch16_224`, `vit_small_patch16_224`, `vit_large_patch16_224` |
 ---
 ## Code tran.py
 
