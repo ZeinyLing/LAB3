@@ -19,6 +19,7 @@ LAB3/
 └── test.py            # test and voting 
 ```
 ---
+
 ## Models in timm
 | Model | Architecture in timm | 
 |:--|:--:|
@@ -26,6 +27,7 @@ LAB3/
 | VGGNet | `vgg16`, `vgg19` |
 | Vision Transformer | `vit_base_patch16_224`, `vit_small_patch16_224`, `vit_large_patch16_224` |
 ---
+
 ## Code train.py
 
 ```
@@ -36,11 +38,14 @@ model_ft = timm.create_model(model_select, pretrained=True)
 in_features = model_ft.get_classifier().in_features
 model_ft.reset_classifier(num_classes=n_class)
 ```
+---
+
 ## Workflow
 
 <img src="workflow/workflow.png" width="700">
 <img src="workflow/workflow2.png" width="700">
 ---
+
 ## Results on Kaggle
 
 <img src="workflow/result.png" width="700">
