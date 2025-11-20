@@ -17,7 +17,6 @@ LAB1/
 ├── train.py             # Training pipeline for classification models
 ├── inference.py         # Model inference on test dataset
 ├── voting.py            # Voting ensemble of multiple trained models
-├── draw.py              # Draw curves from csvs
 │
 ├── csvs/                # Training and validation logs (acc, F1 per epoch)
 ├── cm_plot/             # Confusion matrix heatmaps
