@@ -36,21 +36,9 @@ LAB1/
 
 ```
 # select model
-model_select = 'vgg16'
+model_select = '#model#'
 
-# For vgg efficientnet densenet  resnet
 model_ft = timm.create_model(model_select, pretrained=True)
-
-# For 'vit_base_patch16_224'
-#model_ft = timm.create_model(model_select, pretrained=True,img_size=512) 
-
-# For resnet model
-'''
-num_ftrs = model_ft.fc.in_features
-model_ft.fc = nn.Linear(num_ftrs, n_class)
-'''
-
-# For not resnet model
 in_features = model_ft.get_classifier().in_features
 model_ft.reset_classifier(num_classes=n_class)
 ```
