@@ -56,7 +56,6 @@ model_ft.reset_classifier(num_classes=n_class)
 | `cm_plot/` | Confusion matrix heatmaps | 
 | `plots/` | Accuracy & F1-score curves |
 | `pkls/` | Model weights (.pkl) | 
-- **Because of the file size limit, you can download the model weights (.pkl files) from Google Cloud :** [pkls](https://drive.google.com/drive/folders/1MaRhkFk5fxD5Tn6RfLvimDjYHDQ80gMe?usp=sharing)
 ---
 ## Best single model (ResNet34)
 
