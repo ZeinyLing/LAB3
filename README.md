@@ -42,8 +42,7 @@ model_ft.reset_classifier(num_classes=n_class)
 
 ## Workflow
 
-<img src="workflow/workflow.png" width="700">
-<img src="workflow/workflow2.png" width="700">
+<p align="center"> <img src="workflow/workflow.png" width="700"> </p> <p align="center"> <img src="workflow/workflow2.png" width="700"> </p>
 ---
 
 ## Results on Kaggle
