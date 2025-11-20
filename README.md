@@ -36,7 +36,6 @@ in_features = model_ft.get_classifier().in_features
 model_ft.reset_classifier(num_classes=n_class)
 ```
 ## workflow
----
 <img src="workflow/workflow.png" width="700">
 <img src="workflow/workflow2.png" width="700">
 
