@@ -26,15 +26,7 @@ LAB1/
 ```
 ---
 ## Code tran.py
-Different models choose different ==> model_ft
 
-For resnet model:
-- num_ftrs = model_ft.fc.in_features \n
-- model_ft.fc = nn.Linear(num_ftrs, n_class) 
-
-For not resnet model:
-- in_features = model_ft.get_classifier().in_features
-- model_ft.reset_classifier(num_classes=n_class)
 ```
 # select model
 model_select = 'vgg16'
