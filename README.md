@@ -11,7 +11,7 @@ Lab3 CXR multi-class classification
 
 ## 📁 Project Structure
 ```
-LAB1/
+LAB3/
 │
 ├── preprocessing.py     # Image preprocessing
 ├── train.py             # Training pipeline for classification models
