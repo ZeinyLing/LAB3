@@ -13,7 +13,9 @@ Lab3 CXR multi-class classification
 ```
 LAB3/
 │
-├── preprocessing.py     # Image preprocessing
+├── preprocessing/     # Image preprocessing
+├── train.py           # Training pipeline for classification models
+├── test.py            # test and voting 
 ├── train.py             # Training pipeline for classification models
 └── voting.py            # Voting ensemble of multiple trained models
 ```
