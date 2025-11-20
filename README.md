@@ -55,23 +55,6 @@ in_features = model_ft.get_classifier().in_features
 model_ft.reset_classifier(num_classes=n_class)
 ```
 ---
-## Folder Descriptions
-
-| Folder | Description |
-|:--|:--|
-| `csvs/` | Training and validation logs | 
-| `cm_plot/` | Confusion matrix heatmaps | 
-| `plots/` | Accuracy & F1-score curves |
-| `pkls/` | Model weights (.pkl) | 
----
-## Best single model (ResNet34)
-
-✅ Final performance on test set：  
-- **Accuracy:** 92.95%  
-- **F1-score:** 0.945  
-<img src="cm_plots/cm_5_resnet34_ep_20.pkl.png" width="450">
-
-## Voting Ensemble 
 
 ✅ Final performance on test set：  
 - **voting by ResNet34, ResNet50, ResNet18 , VGG16**
