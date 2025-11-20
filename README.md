@@ -14,10 +14,9 @@ Lab3 CXR multi-class classification
 LAB3/
 │
 ├── preprocessing/     # Image preprocessing
+├── worflow/           # worflow Image
 ├── train.py           # Training pipeline for classification models
-├── test.py            # test and voting 
-├── train.py             # Training pipeline for classification models
-└── voting.py            # Voting ensemble of multiple trained models
+└── test.py            # test and voting 
 ```
 ---
 ## Models in timm
