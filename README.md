@@ -25,7 +25,7 @@ LAB1/
 └── pkls/                # Trained model weights (.pkl) -->　In Google Cloud
 ```
 ---
-## Code tran.py
+## Models in timm
 | Model | Architecture in timm | 
 |:--|:--:|
 | ResNet | `resnet18`,`resnet34`, `resnet50`,`resnet101`,`resnet152` |
