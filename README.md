@@ -35,6 +35,11 @@ model_ft = timm.create_model(model_select, pretrained=True)
 in_features = model_ft.get_classifier().in_features
 model_ft.reset_classifier(num_classes=n_class)
 ```
+## workflow
+---
+<img src="workflow/workflow.png" width="450">
+
+
 ---
 ## References
 
