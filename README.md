@@ -26,6 +26,13 @@ LAB1/
 ```
 ---
 ## Code tran.py
+| Dataset | Normal | Bacterial | Virus | COVID-19 |
+|:--|:--:|:--:|:--:|:--:|
+| Train | **1072** | **1888** | **1018** | **39** |
+| Val | **189** | **333** | **180** | **7** |
+| Test | **315** | **556** | **299** | **12** |
+---
+## Code tran.py
 
 ```
 # select model
