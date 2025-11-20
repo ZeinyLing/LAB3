@@ -37,7 +37,7 @@ model_ft.reset_classifier(num_classes=n_class)
 ```
 ## workflow
 ---
-<img src="workflow/workflow.png" width="450">
+<img src="workflow/workflow.png" width="700">
 
 
 ---
