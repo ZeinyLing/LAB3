@@ -42,8 +42,9 @@ model_ft.reset_classifier(num_classes=n_class)
 <img src="workflow/workflow2.png" width="700">
 ---
 ## Results on Kaggle
+___
 <img src="workflow/result.png" width="700">
----
+___
 ## References
 
 Ikechukwu, A. V., Murali, S., Deepu, R., & Shivamurthy, R. C. (2021). ResNet-50 vs VGG-19 vs training from scratch: A comparative analysis of the segmentation and classification of Pneumonia from chest X-ray images. Global Transitions Proceedings, 2(2), 375–381.
